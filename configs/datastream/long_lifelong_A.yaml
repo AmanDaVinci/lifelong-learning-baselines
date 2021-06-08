@@ -1,0 +1,11 @@
+# @package _group_
+- boolq
+- pan_ner
+- reviews
+- udpos
+- ag_news
+- wic
+- ans_topic
+- few_rel
+- dbpedia
+- yelp_review

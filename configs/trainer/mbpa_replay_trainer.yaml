@@ -1,0 +1,8 @@
+# @package _group_
+module: LL4LM.trainers.mbpa_replay_trainer
+class_name: MbPAReplayTrainer
+replay_interval: 40
+num_replay_batches: 4
+replay_add_probability: 0.1
+adapt_lambda: 1e-3
+adapt_steps: 10

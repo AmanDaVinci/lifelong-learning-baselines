@@ -1,0 +1,6 @@
+# @package _group_
+module: LL4LM.trainers.agem_trainer
+class_name: AGEMTrainer
+replay_interval: 40
+num_replay_batches: 4
+replay_add_probability: 0.1

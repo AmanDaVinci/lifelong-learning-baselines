@@ -1,0 +1,3 @@
+# @package _group_
+module: LL4LM.trainers.lifelong_trainer
+class_name: LifelongTrainer

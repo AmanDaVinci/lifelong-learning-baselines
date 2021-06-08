@@ -1,0 +1,23 @@
+seed: 42
+checkpoint_dir: "checkpoints"
+output_dir: "outputs"
+test_interval: 20 
+test_grad_interval: 400 
+train_grad_interval: 2 
+data:
+  shuffle: True
+  batch_size: 25
+  test_batch_size: 256
+  grad_batch_size: 20
+  dataset_size: 10000
+  testset_size: 1000
+  gradset_size: 100
+  n_samples_each_dataset: 5
+model:
+  base_model: "bert-base-cased"
+  lr: 3e-5
+  wt_decay: 0.0
+
+defaults:
+  - trainer: lifelong_trainer
+  - datastream: lifelong

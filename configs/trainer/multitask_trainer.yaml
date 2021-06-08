@@ -1,0 +1,3 @@
+# @package _group_
+module: LL4LM.trainers.multitask_trainer
+class_name: MultitaskTrainer

@@ -1,0 +1,18 @@
+# @package _group_
+- udpos
+- pan_ner
+- few_rel
+- wic
+- wsc
+- dbpedia
+- ag_news
+- ans_topic
+- yelp_review
+- reviews
+- boolq
+- copa
+- record
+- multirc
+- cb
+- rte
+- mnli

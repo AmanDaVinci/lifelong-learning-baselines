@@ -1,0 +1,3 @@
+# @package _group_
+module: LL4LM.trainers.datastream_scanner
+class_name: DatastreamScanner
